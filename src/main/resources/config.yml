@@ -1,0 +1,13 @@
+# Dialogue box (only the target player sees it).
+box:
+  left-edge: 0.85      # gap between crosshair and the box's left edge (bigger = further right)
+  top: 0.1             # gap below the crosshair to the top of the box
+  distance: 2.3        # how far in front of the camera the box floats
+  scale: 0.38          # text size (bigger = larger box)
+  wrap-px: 130         # box width in font pixels before the text wraps
+  background-alpha: 215  # 0-255, higher = darker/more solid black behind the text
+  max-length: 300
+
+# Followers of an online god get Resistance I.
+blessing:
+  enabled: true
